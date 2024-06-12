@@ -8,7 +8,7 @@ import { Server } from "socket.io";
 import "./db/dbConnect.js"
 
 const app = express();
-const porta =  process.env.porta || 8080;
+const porta =  process.env.PORT || 8080;
 
 app.use(fileUpload())
 
