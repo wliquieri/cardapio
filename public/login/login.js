@@ -1,5 +1,5 @@
+const socket = io();
 import { emitirAutenticarUsuario } from "./socket-front-login.js";
-
 const formLogin = document.getElementById("formLogin");
 
 formLogin.addEventListener("submit", (e) =>{
